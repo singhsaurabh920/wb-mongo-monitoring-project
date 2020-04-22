@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      primary:
+        uri: mongodb://localhost:27017/gps4
+        database: gps4
+        username: gps
+        password: pulkit27
+        authentication-database: gps4
+      secondary:
+        host: localhost
+        database: gps5
+        username: gps
+        password: pulkit27
+        authentication-database: gps5

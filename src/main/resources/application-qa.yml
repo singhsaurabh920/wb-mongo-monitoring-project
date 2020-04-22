@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      primary:
+        uri: mongodb://18.140.52.69:27017/gps4
+        database: gps4
+        username: qa
+        password: qa@qwerty
+        authentication-database: gps4
+      secondary:
+        host: 3.0.6.39
+        database: gps5
+        username: qa
+        password: qa@qwerty
+        authentication-database: gps5
