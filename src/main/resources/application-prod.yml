@@ -1,25 +1,8 @@
-gps:
- tcp:
-   socket:
-     ip:
-       1: 52.74.44.145
-       2: 18.138.27.187
-   load:
-     ip:
-       1: 54.169.192.130
-       2: 13.251.157.228
 spring:
   data:
     mongodb:
-      primary:
-        uri: mongodb://172.31.5.254:27017,172.31.25.162:27017/gps4?replicaset=tb-db
-        database: gps4
-        username: gps
-        password: pulkit27
-        authentication-database: gps4
-      secondary:
-        host: 172.31.12.170
-        database: gps5
-        username: gps
-        password: pulkit27
-        authentication-database: gps5
+      uri: mongodb://172.31.5.254:27017,172.31.25.162:27017/wb24?replicaset=rs-wb
+      database: wb24
+      username: wb24-admin
+      password: wb24-admin
+      authentication-database: wb24

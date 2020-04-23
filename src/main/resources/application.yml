@@ -1,7 +1,7 @@
 server:
-  port: 8081
+  port: 9091
   servlet:
-    context-path: /gps
+    context-path: /
   compression:
     enabled: true
     mime-types: text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json
@@ -9,11 +9,7 @@ server:
 spring:
   mvc:
     throw-exception-if-no-handler-found: true
-  profiles.active: dev
-  #profiles.active: prod
-  #sprofiles.active: qa
-cron:
-  km:
-    pre: 0 0/30 * * * ?
-    post: 0 0/30 * * * ?
-    today: 0 28/30 * * * ?
+  profiles:
+    active: dev
+    #active: prod
+    #active: qa

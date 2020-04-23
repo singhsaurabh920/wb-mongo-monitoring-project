@@ -1,15 +1,8 @@
 spring:
   data:
     mongodb:
-      primary:
-        uri: mongodb://localhost:27017/gps4
-        database: gps4
-        username: gps
-        password: pulkit27
-        authentication-database: gps4
-      secondary:
-        host: localhost
-        database: gps5
-        username: gps
-        password: pulkit27
-        authentication-database: gps5
+      uri: mongodb://localhost:27017/wb24
+      database: wb24
+      username: wb24-admin
+      password: wb24-admin
+      authentication-database: wb24
