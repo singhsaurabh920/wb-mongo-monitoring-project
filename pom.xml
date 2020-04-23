@@ -17,11 +17,7 @@
 	<description>Worldbuild mongo monitoring project</description>
 
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.target>1.8</maven.compiler.target>
-		<maven.compiler.source>1.8</maven.compiler.source>
 		<java.version>1.8</java.version>
-		<version.compiler.plugin>2.3.1</version.compiler.plugin>
 		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 		<spring-cloud.version>Hoxton.SR1</spring-cloud.version>
 	</properties>
@@ -33,6 +29,7 @@
 			<version>0.0.1-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -43,6 +40,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
