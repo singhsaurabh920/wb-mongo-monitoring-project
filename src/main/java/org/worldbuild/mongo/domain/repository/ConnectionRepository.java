@@ -1,8 +1,8 @@
-package org.worldbuild.project.domain.repository;
+package org.worldbuild.mongo.domain.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
-import org.worldbuild.project.domain.entity.Connection;
+import org.worldbuild.mongo.domain.entity.Connection;
 
 @Repository
 public interface ConnectionRepository extends MongoRepository<Connection,String> {

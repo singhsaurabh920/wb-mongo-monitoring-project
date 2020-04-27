@@ -23,6 +23,7 @@
 	</properties>
 
 	<dependencies>
+		
 		<dependency>
 			<groupId>org.worldbuild.project</groupId>
 			<artifactId>wb-core-project</artifactId>
@@ -45,6 +46,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
+
 	</dependencies>
 	
 	<dependencyManagement>

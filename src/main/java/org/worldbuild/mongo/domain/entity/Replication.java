@@ -1,4 +1,4 @@
-package org.worldbuild.project.domain.entity;
+package org.worldbuild.mongo.domain.entity;
 
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;

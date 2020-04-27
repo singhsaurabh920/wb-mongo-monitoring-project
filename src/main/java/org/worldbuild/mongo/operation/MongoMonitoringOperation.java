@@ -1,4 +1,4 @@
-package org.worldbuild.project.operation;
+package org.worldbuild.mongo.operation;
 
 import com.mongodb.Block;
 import com.mongodb.ConnectionString;
@@ -25,11 +25,11 @@ import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-import org.worldbuild.project.domain.entity.Connection;
-import org.worldbuild.project.domain.entity.NetCounter;
-import org.worldbuild.project.domain.entity.OpCounter;
-import org.worldbuild.project.domain.entity.Replication;
-import org.worldbuild.project.utils.DateTimeUtils;
+import org.worldbuild.core.utils.DateTimeUtils;
+import org.worldbuild.mongo.domain.entity.Connection;
+import org.worldbuild.mongo.domain.entity.NetCounter;
+import org.worldbuild.mongo.domain.entity.OpCounter;
+import org.worldbuild.mongo.domain.entity.Replication;
 
 import javax.annotation.PostConstruct;
 import java.util.Date;

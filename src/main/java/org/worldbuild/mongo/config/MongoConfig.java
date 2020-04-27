@@ -1,4 +1,4 @@
-package org.worldbuild.project.config;
+package org.worldbuild.mongo.config;
 
 import com.mongodb.Block;
 import com.mongodb.ConnectionString;
@@ -33,7 +33,7 @@ import static java.util.Arrays.asList;
 @Log4j2
 @Configuration
 @EnableMongoAuditing
-@EnableMongoRepositories(basePackages = {"org.worldbuild.project.domain.repository"})
+@EnableMongoRepositories(basePackages = {"org.worldbuild.mongo.domain.repository"})
 public class MongoConfig extends AbstractMongoClientConfiguration {
 
     private static final String UTF_8 = "UTF-8";

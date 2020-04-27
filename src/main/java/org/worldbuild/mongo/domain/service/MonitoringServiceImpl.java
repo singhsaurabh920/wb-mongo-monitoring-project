@@ -1,4 +1,4 @@
-package org.worldbuild.project.domain.service;
+package org.worldbuild.mongo.domain.service;
 
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;
