@@ -23,7 +23,7 @@
 	</properties>
 
 	<dependencies>
-		
+
 		<dependency>
 			<groupId>org.worldbuild.project</groupId>
 			<artifactId>wb-core-project</artifactId>
